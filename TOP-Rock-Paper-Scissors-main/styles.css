@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+body {
+    background-color: #F6F6F2;
+    font-family: Nunito Sans;
+    
+}
+
+/* SLider start */
+
+.content {
+    width: 100vw;
+    height: 20vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-wrapper {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slider{
+    height: 50px;
+    padding-left:15px;
+    text-transform: uppercase;
+  }
+  .slider-text1 {
+    background: #C23A36;
+    animation: slide 5s linear infinite;
+  }
+  .slider-text2 {
+    background: #C23A36;
+  }
+  .slider-text3 {
+    background: #C23A36;
+  }
+  
+  .slider div {
+    color:#fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 15px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .slider{
+    height: 50px;
+    padding-left:15px;
+    overflow: hidden;   /* hide the text outside the slider div area */
+  }
+  
+  
+  @keyframes slide {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}  /* 5% delay */
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;} /* 5% delay */
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;} /* 5% delay */
+    100% {margin-top:0px;}
+  }
+
+/* SLider end */
+  
+.header2 {
+    color: #C23A36;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+
+.objects {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.object {
+  cursor:pointer;
+}
+
+
+.result {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+
