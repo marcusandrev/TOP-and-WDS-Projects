@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="app.js"></script> 
+         <!-- learned to use defer to load JS files: https://www.youtube.com/watch?v=BMuFBYw91UQ&ab_channel=WebDevSimplified. 
+            Use this instead of putting the js at the bottom of the page -->
+    </head>
+
+    <body>
+        <div class="whole-calculator">
+            <div class="screen">
+                <div data-upper-screen class="textLine"></div>
+                <div data-lower-screen class="result"></div>
+            </div>
+            <div class="buttons-container">
+                <div class="row1">
+                    <button data-AC class="btn1 ACBtn">AC</button>
+                    <button data-Clear class="btn2 ClearBtn">Clear</button>
+                </div>
+                <div class="row2">
+                    <button data-number class="btn sevenBtn">7</button>
+                    <button data-number class="btn eightBtn">8</button>
+                    <button data-number class="btn nineBtn">9</button>
+                    <button data-operation class="btn divideBtn">÷</button>
+                </div>
+                <div class="row3">
+                    <button data-number class="btn fourBtn">4</button>
+                    <button data-number class="btn fiveBtn">5</button>
+                    <button data-number class="btn sixBtn">6</button>
+                    <button data-operation class="btn multiplyBtn">×</button>
+                </div>
+                <div class="row4">
+                    <button data-number class="btn oneBtn">1</button>
+                    <button data-number class="btn twoBtn">2</button>
+                    <button data-number class="btn threeBtn">3</button>
+                    <button data-operation class="btn minusBtn">-</button>
+                </div>
+                <div class="row5">
+                    <button data-number class="btn zeroBtn">0</button>
+                    <button data-number class="btn decimalBtn">.</button>
+                    <button data-equals class="btn equalBtn">=</button>
+                    <button data-operation class="btn addBtn">+</button>
+                </div>
+            </div>
+        </div>  
+        <div class="text-below">
+            <h1>Simple JS Calculator</h1>
+        </div> 
+    </body>
+</html>
