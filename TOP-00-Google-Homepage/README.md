@@ -4,4 +4,4 @@
 👉 [TOP Google Homepage Project link](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
 
 ## Screenshot of Google Homepage Project
-[!Google Picture](./images/google-code-pciture.jpeg)
+![Google Picture](./images/google-code-pciture.jpeg)
