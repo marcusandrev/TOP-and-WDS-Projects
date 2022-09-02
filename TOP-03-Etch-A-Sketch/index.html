@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+    <html>
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </html>
+
+    <body>
+
+        <div class="whole-etch">
+            
+            <div class="upper-buttons">
+
+                <div class="button-size">
+                    <p>Size:</p>
+                    <button class="small-size">Small</button>
+                    <button class="medium-size">Medium</button>
+                    <button class="big-size">Big</button>
+                </div>
+
+                <div class="color-buttons">
+                    <p>Color:</p>
+                    <div class="color-knob">
+                        <input type="color" id="pen" name="Choose" value="#000">
+                        <div id="colorSelection"><label id="penTitle" for="pen"></label></div>
+                    </div>
+                </div>
+
+                <div class="button-reset">
+                    <button class="reset">Reset</button>
+                </div>
+
+            </div>
+
+            <div id="grid-container" class="grid"> </div>
+
+            <div class="etch-text">
+                <h1>Etch-A-Sketch</h1>
+            </div>
+
+        </div>
+        
+        <script src="app.js"></script>
+        
+    </body>
+    
+</html>
